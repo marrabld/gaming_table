@@ -5,14 +5,14 @@ import neopixel
 
 # Rotary Encoder Pins
 Enc_A = 21  
-Enc_B = 4  
+Enc_B = 16 
 
 # Push Button Pin
-push = 27
+push = 20
 
 # NeoPixel Setup
-NPINS = 45 * 2
-brightness = 0.5  # Starting brightness
+NPINS = 240 #45 * 4
+brightness = 0.1  # Starting brightness
 mode = "brightness"  # Modes: "brightness" or "color"
 color_index = 0  # Index to keep track of the current color
 bright_res = 0.025
@@ -30,6 +30,7 @@ color_wheel = [
 ]
 
 color_wheel = [
+    (255, 255, 255),        # White
     (255, 0, 0),      # Red
     (255, 64, 0),     # Red-Orange
     (255, 128, 0),    # Orange-Red
