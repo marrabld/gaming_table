@@ -11,7 +11,7 @@ Enc_B = 16
 push = 20
 
 # NeoPixel Setup
-NPINS = 240 #45 * 4
+NPINS = 240 * 3  #45 * 4
 brightness = 0.1  # Starting brightness
 mode = "brightness"  # Modes: "brightness" or "color"
 color_index = 0  # Index to keep track of the current color
